@@ -1,0 +1,33 @@
+// BEGINNER
+function DRY() {
+	if (2==2) {
+		return true;
+	}else{
+	return false;
+	}
+}
+// INTERMIDIATE
+function DRY1() {
+	if (2==2) return true;
+	return false;
+}
+// PRO
+function DRY2() {
+	return (2==2) ? true : false; 
+}
+// SENIOR PRO!!!!!!!!
+function DRY3() {
+	return (2==2)
+}
+console.log(DRY2())
+
+6/0 => Infinity
+0/6 => 0 (Zero divided by a non zero number equals to zero)
+0/0 => NaN
+Math.sqrt(-2) => NaN(this isnt a real  number its an imaginary number)
+
+// CSS COMBINATORS
+#1 - DESCENDANT COMBINATORS (Space between selectors)
+#2 - DIRECT CHILD SELECTORS(>)
+#3 - GENERAL SIBLINGS SELECTORS(~)
+#4 - ADJACENT CHILD SELECTORS(+)
